@@ -5,11 +5,16 @@
 }
 .imgContainer {
   position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
   height: 400px;
 }
 
 .img {
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .info {
@@ -31,6 +36,9 @@
   flex: 1;
 }
 @media only screen and (max-width: 883px) {
+  .imgContainer {
+    width: 100%;
+  }
   .info {
     flex-direction: column;
   }
