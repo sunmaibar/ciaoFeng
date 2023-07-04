@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.item {
+  flex: 1;
+}
+
+.imgContainer {
+  flex: 1;
+  align-items: center;
+
+  position: relative;
+}
+.img {
+  object-fit: cover;
+}
+.description {
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+@media only screen and (max-width: 883px) {
+  .container {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+}

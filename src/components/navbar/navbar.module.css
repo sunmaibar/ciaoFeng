@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  border-radius: 50%;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoText h2 {
+  font-size: 18px;
+}
+
+.logoText p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+.link {
+  padding: 5px 20px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.link:hover {
+  color: lightskyblue;
+
+  background-color: #333;
+}
+
+@media only screen and (max-width: 883px) {
+  .container {
+    flex-direction: column;
+  }
+  .logoContainer {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background-color: #333;
+  }
+}
