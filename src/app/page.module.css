@@ -48,8 +48,7 @@
 
 .imgContainer {
   position: relative;
-  /* width: 100%; */
-  width: 400px;
+  width: 100%;
   height: 300px;
   margin-top: 10px;
 }
@@ -74,11 +73,11 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
 }
 .subTitle {
   margin: 20px 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /* ---------- */
@@ -88,10 +87,10 @@
     margin-top: 100px;
     gap: 30px;
   }
-  .imageContainer {
-    width: 80vw;
-    margin: 0 auto;
+  .title {
+    font-size: 26px;
   }
+
   .text {
     text-align: center;
   }

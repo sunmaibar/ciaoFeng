@@ -34,4 +34,7 @@
   .info {
     flex-direction: column;
   }
+  .left {
+    width: 90vw;
+  }
 }

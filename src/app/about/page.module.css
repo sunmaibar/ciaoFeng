@@ -10,12 +10,15 @@
 
 .imgContainer {
   flex: 1;
+  display: flex;
   align-items: center;
-
   position: relative;
+  /* width: 300px; */
+  height: 300px;
 }
 .img {
   object-fit: cover;
+  border-radius: 15px;
 }
 .description {
   margin-top: 20px;

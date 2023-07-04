@@ -4,7 +4,12 @@ const Products = () => {
   return (
     <div className={styles.container}>
       <div className={styles.coverImg}>
-        <Image src='/pic/image-001.jpg' fill={true} className={styles.corimg} />
+        <Image
+          src='/pic/image-001.jpg'
+          fill={true}
+          className={styles.corimg}
+          alt='柴油發電機'
+        />
       </div>
       <h1 className={styles.title}>柴油發電機黑煙淨化設備</h1>
       <p className={styles.desc}>
