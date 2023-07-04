@@ -15,10 +15,14 @@ export default function Home() {
             我們引領綠色能源新潮流，為您的大樓注入強大的發電動力！讓我們為您介紹最先進的大樓發電機排煙系統，為您的建築物提供可靠、高效、環保的能源解決方案。
           </h3>
         </div>
-        <div className={styles.imagediv}>
-          <div className={styles.imageContainer}>
-            <Image fill={true} className={styles.image} src='/pic/homebs.jpg' />
-          </div>
+        <div className={styles.imageContainer}>
+          <Image
+            alt='喬豐'
+            width={450}
+            height={300}
+            className={styles.image1}
+            src='/pic/homebs.jpg'
+          />
         </div>
       </div>
       <h1 className={styles.title2}>柴油發電機黑煙淨化設備</h1>
@@ -30,7 +34,7 @@ export default function Home() {
             <li>氮氧化物(NO2)</li>
             <li>硫氧化物(SOX)</li>
           </ul>
-          <div className={styles.imgContainer}>
+          <div className={styles.imgContainer2}>
             <Image
               className={styles.image2}
               src='/pic/image-030.jpg'
