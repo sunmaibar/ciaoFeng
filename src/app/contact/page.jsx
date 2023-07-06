@@ -19,11 +19,13 @@ const Contact = () => {
         </p>
         <div className='right'>
           <h1 className={styles.title}>喬豐國際科技股份有限公司</h1>
+          <h3 className={styles.subTitle}>業務經理:羅文業</h3>
+          <h3 className={styles.subTitle}>聯繫方式:0922-213-695</h3>
+          <h3 className={styles.subTitle}>信箱:a05160516@yahoo.com.tw</h3>
           <h3 className={styles.subTitle}>
             地址:112台北市北投區中央北路二段265號1樓
           </h3>
-          <h3 className={styles.subTitle}>信箱:cf0225919177@hotmail.com</h3>
-          <h3 className={styles.subTitle}>聯繫方式:02-2656-1234</h3>
+          <h3 className={styles.subTitle}>公司電話:02-2656-1234</h3>
         </div>
       </div>
     </div>
